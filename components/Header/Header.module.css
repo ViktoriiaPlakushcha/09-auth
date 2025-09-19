@@ -25,11 +25,19 @@
     display: flex;
     gap: 1rem;
 }
+.navigation li {
+display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+}
 
 .navigation li a {
     text-decoration: none;
     color: white;
     font-size: 1rem;
+    
 }
 
 .navigation li a:hover {
