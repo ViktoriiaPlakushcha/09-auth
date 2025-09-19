@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "Create Note Page",
     description: "Page to create new Note",
     siteName: "NoteHub",
-    url: "https://08-zustand-ashy.vercel.app/notes/action/create",
+    url: "https://09-auth-kappa-gray.vercel.app/notes/action/create",
     images: [
       {
         url: "https://ac.goit.global/fullstack/react/notehub-og-meta.jpg",

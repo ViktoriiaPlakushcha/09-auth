@@ -19,8 +19,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = tag ? `Notes with tag: ${tag}` : "All notes";
   const description = tag ? `Notes filtered by tag ${tag}` : "All notes list";
   const url = tag
-    ? `https://08-zustand-ashy.vercel.app/notes/filter/${tag}`
-    : "https://08-zustand-ashy.vercel.app/notes/filter/All";
+    ? `https://09-auth-kappa-gray.vercel.app/notes/filter/${tag}`
+    : "https://09-auth-kappa-gray.vercel.app/notes/filter/All";
 
   return {
     title: title,
